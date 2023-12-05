@@ -42,7 +42,7 @@ const [nav, setNav] = useState(false)
         },
     ]
   return (
-    <div className="bg-white w-full flex items-center px-8   justify-between h-[60px]">
+    <div className="bg-white fixed w-full flex items-center px-8   justify-between h-[60px]">
       <div className="">
        <h1 className="font-signature text-black px-4 my-8 text-4xl">Ms</h1>
       </div>

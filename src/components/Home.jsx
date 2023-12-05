@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="max-w-screen bg-gradient-to-b mx-auto from-white via-white to-cyan-800 flex flex-col px-24 md:flex-row items-center justify-between  h-screen">
-      <div className="flex flex-col justify-center h-full">
+    <div className="max-w-screen h-screen bg-gradient-to-b mx-auto from-white via-white to-cyan-800 flex flex-col px-32 md:flex-row items-center justify-between">
+      <div className="flex h-screen flex-col ml-10 justify-center gap-3">
         <h2 className="text-lg mb-4">Hi, I am Mahlet👋</h2>
          <h1 className="text-6xl font-bold text-cyan-black mb-8">I am a <span className="text-cyan-800">Front End Developer</span></h1>
          <p className="text-gray-500 max-w-md italic">I have 4 years of experience building and desgining software.
@@ -19,7 +19,7 @@ const Home = () => {
             </div>
       </div>
       <div>
-          <img className= "rounded-2xl mx-auto w-2/3 md:w-[1000px]" src ={heroImage} alt="heroImage" />
+          <img className= "rounded-2xl mx-auto w-2/3 md:w-[1100px]" src ={heroImage} alt="heroImage" />
       </div>
     </div>
   )

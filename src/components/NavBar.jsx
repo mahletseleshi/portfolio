@@ -42,15 +42,15 @@ const [nav, setNav] = useState(false)
         },
     ]
   return (
-    <div className="bg-black w-full flex items-center px-8   justify-between h-[60px]">
+    <div className="bg-white w-full flex items-center px-8   justify-between h-[60px]">
       <div className="">
-       <h1 className="font-signature text-white px-4 my-8 text-4xl">Ms</h1>
+       <h1 className="font-signature text-black px-4 my-8 text-4xl">Ms</h1>
       </div>
       <ul className=" hidden md:flex">
           {links.map((link) => (
             <li
                 key = {link.id}
-                className="text-gray-200 px-4 text-sm hover:scale-150 cursor-pointer hover:text-orange-500 duration-500 hover:cursor-pointer"
+                className="text-black px-4 text-sm hover:scale-150 cursor-pointer hover:text-orange-500 duration-500 hover:cursor-pointer"
              >
                 {link.link}
             </li>
@@ -58,7 +58,7 @@ const [nav, setNav] = useState(false)
           ))}
       </ul>
       
-      <div className="text-gray-500 cursor-pointer z-10 md:hidden" onClick={() =>setNav(!nav) }>
+      <div className="text-black cursor-pointer z-10 md:hidden" onClick={() =>setNav(!nav) }>
        {nav ? <FaTimes size={30} /> : <FaBars size ={30} />}
       </div>
 

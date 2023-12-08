@@ -18,12 +18,7 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        Throughout my career, I have honed my skills in crafting intuitive user interfaces leveraging frameworks like Tailwind and React Framer to create visually stunning and responsive designs. Additionally, my proficiency in integrating frontend components seamlessly with REST APIs has contributed to the development of robust and efficient applications.
         </p>
       </div>
     </div>

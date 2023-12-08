@@ -12,12 +12,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        Mahlet Seleshi, a seasoned frontend developer with 4+ years specializing in React. Proficient in crafting intuitive user interfaces, I excel in responsive design, creating seamless web experiences. Skilled in architecting robust solutions, I bring a blend of creativity and functionality to every project. Committed to staying ahead in technology, I am dedicated to pushing the boundaries of frontend innovation
         </p>
 
         <br />
